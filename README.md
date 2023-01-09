@@ -6,7 +6,9 @@ It need to be executed as root or a user with sudoers priviledge:
 Example of sudoers:
 
   $USER ALL=(root) NOPASSWD: /usr/bin/cat
+  
   $USER  ALL=(root) NOPASSWD: /usr/bin/find
+  
   $USER  ALL=(root) NOPASSWD: /usr/bin/ls
 
 Some of the parameters: 
