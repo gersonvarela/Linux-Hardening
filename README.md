@@ -12,6 +12,7 @@ Example of sudoers:
   $USER  ALL=(root) NOPASSWD: /usr/bin/ls
 
 Some of the parameters: 
+
   PermitEmptyPasswords
   Private Key Passphrases - system-to-system authentication
   LogLevel
@@ -93,5 +94,6 @@ Some of the parameters:
   AcceptEnv
   Business Use Notice 
   Data Transmission
+
 
 Complete list, see the csv
